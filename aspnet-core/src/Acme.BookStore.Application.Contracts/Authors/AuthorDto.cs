@@ -9,5 +9,5 @@ public class AuthorDto : EntityDto<Guid>
 
     public DateTime BirthDate { get; set; }
 
-    public string ShortBio { get; set; }
+    public string? ShortBio { get; set; }
 }

@@ -47,6 +47,7 @@ export class BookComponent implements OnInit {
     this.selectedBook = {} as BookDto;
     this.buildForm();
     this.isModalOpen = true;
+    
   }
 
   editBook(id: string) {
